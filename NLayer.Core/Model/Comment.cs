@@ -8,7 +8,7 @@ namespace NLayer.Core.Model
 {
     public class Comment
     {
-        public int CommentID { get; set; }
+        public int Id { get; set; }
         public int UserID { get; set; }
         public int TweetID { get; set; }
         public string Text { get; set; }

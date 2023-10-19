@@ -8,7 +8,7 @@ namespace NLayer.Core.Model
 {
     public class Hashtag
     {
-        public int HashtagID { get; set; }
+        public int Id { get; set; }
         public string Tag { get; set; }
 
 

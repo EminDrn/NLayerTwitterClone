@@ -8,7 +8,7 @@ namespace NLayer.Core.Model
 {
     public class Like
     {
-        public int LikeID { get; set; }
+        public int Id { get; set; }
         public int UserID { get; set; }
         public int TweetID { get; set; }
 

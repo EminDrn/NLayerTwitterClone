@@ -8,7 +8,7 @@ namespace NLayer.Core.Model
 {
     public class Follower
     {
-        public int FollowerID { get; set; }
+        public int Id { get; set; }
         public int FollowingID { get; set; }
 
         public User FollowerUser { get; set; } // Takipçi olan kullanıcı

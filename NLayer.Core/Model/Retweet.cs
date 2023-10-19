@@ -8,7 +8,7 @@ namespace NLayer.Core.Model
 {
     public  class Retweet
     {
-        public int RetweetID { get; set; }
+        public int Id { get; set; }
         public int UserID { get; set; }
         public int OriginalTweetID { get; set; }
 
