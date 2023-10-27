@@ -9,13 +9,10 @@ namespace NLayer.Core.Model
     public class Comment
     {
         public int Id { get; set; }
-        public int UserID { get; set; }
-        public int TweetID { get; set; }
+        public int UserId { get; set; }
+        public int TweetId { get; set; }
         public string Text { get; set; }
         public DateTime Timestamp { get; set; }
-
-        public User User { get; set; } // Yorum yapan kullanıcı
-        public Tweet Tweet { get; set; } // Yorum yapılan tweet
 
     }
 

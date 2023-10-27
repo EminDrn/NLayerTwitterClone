@@ -16,7 +16,7 @@ namespace NLayer.Repository.Configuration
             builder.HasKey(x => x.Id);
             builder.Property(x=>x.Id).UseIdentityColumn();
             builder.Property(x => x.Text).IsRequired().HasMaxLength(150);
-            builder.HasOne(x=>x.User).WithMany(x=>x.Tweet).HasForeignKey(x=>x.UserID);
+           
 
         }
     }

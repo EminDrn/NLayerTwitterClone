@@ -18,10 +18,6 @@ namespace NLayer.Core.Model
         public string PasswordHash { get; set; }
 
 
-
-        public List<Tweet> Tweet{ get; set; } // Bir kullanıcının tweet'leri
-        public List<Follower> Followers { get; set; } // Bir kullanıcının takipçileri
-        public List<Follower> Following { get; set; } // Bir kullanıcının takip ettiği kişiler
      
     }
 }

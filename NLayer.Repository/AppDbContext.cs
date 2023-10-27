@@ -17,6 +17,7 @@ namespace NLayer.Repository
         
         
         }
+        public DbSet<Comment> Comments{ get; set; }
         public DbSet<User> Users{ get; set; }
         public DbSet<Follower> Followers { get; set; }
         public DbSet<Hashtag> Hashtags { get; set; }

@@ -8,11 +8,11 @@ namespace NLayer.Core.Model
 {
     public class TweetHashtag
     {
-        public int TweetID { get; set; }
+        public int Id { get; set; }
+        public int TweetId { get; set; }
       
-        public int HashtagID { get; set; }
-        public Hashtag Hashtag { get; set; }
-        public Tweet Tweet { get; set; }
+        public int HashtagId { get; set; }
+
     }
 }
 

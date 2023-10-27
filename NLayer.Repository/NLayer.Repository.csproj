@@ -22,9 +22,6 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
-    <Folder Include="IUnitOfWorks\" />
-    <Folder Include="Seed\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>

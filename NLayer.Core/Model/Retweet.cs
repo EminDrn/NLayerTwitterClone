@@ -9,10 +9,8 @@ namespace NLayer.Core.Model
     public  class Retweet
     {
         public int Id { get; set; }
-        public int UserID { get; set; }
-        public int OriginalTweetID { get; set; }
+        public int UserId { get; set; }
+        public int OriginalTweetId { get; set; }
 
-        public User User { get; set; } // Yeniden tweetleyen kullanıcı
-        public Tweet OriginalTweet { get; set; } // Yeniden tweetlenen orijinal tweet
     }
 }

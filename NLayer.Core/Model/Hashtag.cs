@@ -12,8 +12,6 @@ namespace NLayer.Core.Model
         public string Tag { get; set; }
 
 
-        public List<TweetHashtag> TweetHashtags { get; set; } // Hashtag'i kullanan tweet'ler
-
     }
 
 }
