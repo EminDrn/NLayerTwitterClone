@@ -4,7 +4,7 @@
 
 
 body{
-    @apply bg-black text-white
+    @apply bg-black text-white text-[15px];
 }
 
 /*
