@@ -14,6 +14,7 @@ namespace NLayer.Service.Mapping
         public MapProfile()
         {
             CreateMap<User , UserDto>().ReverseMap();
+            CreateMap <Tweet  , TweetDto>().ReverseMap();
         }
     }
 }

@@ -9,6 +9,6 @@ namespace NLayer.Core.Repositories
 {
     public interface ITweetRepository: IGenericRepository<Tweet> 
     {
-        IEnumerable<Tweet> GetTweetsByHashtag(string hashtag);
+        
     }
 }
