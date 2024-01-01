@@ -1,5 +1,6 @@
 import {Disclosure ,Popover } from "@headlessui/react"
 import { Link } from "react-router-dom"
+import classNames from "classnames"
 
 
 
@@ -53,6 +54,7 @@ export default function More(){
                 Para Kazanma
             </div>
           </button>
+          <div className=" h-px bg-[#2f3336] my-0.5 w-[89%] mx-auto"/> 
           <Disclosure>
       <Disclosure.Button className="h-[52px] flex items-center  transition-colors px-4 font-bold justify-between w-full  hover:bg-[#eff3f41a]">
       İçerik Üreticisi Stüdyosu
@@ -77,9 +79,14 @@ export default function More(){
     </Disclosure>
 
     <Disclosure>
-      <Disclosure.Button className="h-[52px] flex items-center  transition-colors px-4 font-bold justify-between w-full  hover:bg-[#eff3f41a]">
-      Profesyonel Araçlar
-      <svg viewBox="0 0 24 24" width={18.75} height={18.75} >
+      {({open}) =>(
+        <>
+        <Disclosure.Button 
+      className="h-[52px] flex items-center  transition-colors px-4 font-bold justify-between w-full  hover:bg-[#eff3f41a]">
+      Profesyonel Araçlar 
+      <svg  className={classNames({
+        "rotate-180":open
+      })} viewBox="0 0 24 24" width={18.75} height={18.75} >
                   <path 
                   fill="white"
                   d="M3.543 8.96l1.414-1.42L12 14.59l7.043-7.05 1.414 1.42L12 17.41 3.543 8.96z"/>
@@ -97,6 +104,8 @@ export default function More(){
                 Reklamlar
         </Link>
       </Disclosure.Panel>
+        </>
+      )}
     </Disclosure>
 
     <Disclosure>
